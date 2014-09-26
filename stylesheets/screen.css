@@ -66,3 +66,65 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, ../sass/screen.scss */
+html {
+  min-width: 100%;
+}
+
+/* line 12, ../sass/screen.scss */
+body {
+  font: 100% "HelveticaLTStd-Light", "Helvetica", sans-serif;
+  color: #4f4f4f;
+  margin: 0px;
+  padding: 0px;
+  background: url "../images/bg.jpg" center top;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* line 23, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-famiy: "HelveticaLTStd-Light", "Helvetica", sans-serif;
+  font-size: 20.8px;
+  line-height: 125%;
+}
+
+/* line 28, ../sass/screen.scss */
+h1 {
+  color: #01395a;
+}
+
+/* line 31, ../sass/screen.scss */
+h2 {
+  color: #566473;
+}
+
+/* line 34, ../sass/screen.scss */
+h3 {
+  color: #9b8f86;
+}
+
+/* line 37, ../sass/screen.scss */
+h4, h5, h6 {
+  color: #4f4f4f;
+}
+
+/* line 40, ../sass/screen.scss */
+p {
+  font-size: 16px;
+  line-height: 125%;
+}
+
+/* line 44, ../sass/screen.scss */
+a {
+  text-decoration: none;
+  font-weight: 100%;
+  font-family: "HelveticaLTStd-Light", "Helvetica", sans-serif;
+}
+/* line 51, ../sass/screen.scss */
+a:hover {
+  text-decoration: underline;
+}
